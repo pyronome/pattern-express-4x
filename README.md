@@ -7,7 +7,7 @@ This repository contains Pyronome **Express 4.x** pattern basic information, doc
 
 ## Contributing
 
-Please use the [issue tracker](https://github.com/pyronome/pattern-express-6x/issues) to report any bugs/typos or requests.
+Please use the [issue tracker](https://github.com/pyronome/pattern-express-4x/issues) to report any bugs/typos or requests.
 
 ## Versioning
 
