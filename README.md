@@ -3,7 +3,7 @@ For further information, please visit https://pyronome.com.
 
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
-This repository contains Pyronome **Express 4.x** pattern basic information, documentation and issues. For further information about this pattern, please visit https://pyronome.com/pyronome/express-4x. In order to generate source code using this pattern, please visit [Pyronome Sign Up Page](https://pyronome.com/builder/signup), and create an account.
+This repository contains Pyronome **Express 4.x** pattern basic information, documentation and issue tracker. For further information about this pattern, please visit https://pyronome.com/pyronome/express-4x. In order to generate source code using this pattern, please visit [Pyronome Sign Up Page](https://pyronome.com/builder/signup), and create an account.
 
 ## Contributing
 
