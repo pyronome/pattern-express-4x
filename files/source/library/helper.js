@@ -24,6 +24,14 @@ var Helper = {
         }
 
         return rows;
+    },
+    "requireIfExists": function (path) {
+        var module = null;
+        try {
+            module = require(path);
+        } catch (ex) {
+        }
+        return module;
     }
 }
 
