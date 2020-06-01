@@ -2,7 +2,7 @@
 
 This repository contains Pyronome **Express 4.x** pattern basic information, pattern files, pattern templates, documentation, and issue tracker. For further information about this pattern, please visit https://pyronome.com/pyronome/express-4x.
 
-**Please note that, you cannot directly use this repository.** To generate source code using this pattern, please visit [Pyronome Sign Up Page](https://pyronome.com/builder/signup), and create an account.
+**Please note that you cannot directly use this repository.** To generate source code using this pattern, please visit [Pyronome Sign Up Page](https://pyronome.com/builder/signup), and create an account.
 
 Please refer to the [Getting Started](https://github.com/pyronome/pattern-express-4x#getting-started) section for step by step instructions.
 
@@ -10,14 +10,15 @@ Please refer to the [Getting Started](https://github.com/pyronome/pattern-expres
 
 Please follow the following steps to generate source code using **Express 4.x** pattern:
 
-1. Sign Up / Log-in to Pyronome from (https://pyronome.com). For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-signup-and-login/)
-2. Create your first project on Pyronome. For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-your-first-project/)
-3. Please choose **Express 4.x** pattern on Install Pattern(s) dialog.
-4. Generate source code. For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-source-code-generation/)
+1. Visit Pyronome platform website: (https://pyronome.com)
+2. Sign up / log in to Pyronome. For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-signup-and-login/)
+3. Create your first project on Pyronome. For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-your-first-project/)
+4. Please choose **Express 4.x** pattern on Install Pattern(s) dialog.
+5. Generate source code. For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-source-code-generation/)
 
 ## Installation
 
-After generating and downloading source code from Pyronome platform. You can follow the steps below to install dependencies and run local web server.
+After generating and downloading source code from the Pyronome platform, you can follow the steps below to install dependencies and run the local webserver.
 
 Firstly, install project and load dependencies.
 
@@ -25,7 +26,7 @@ Firstly, install project and load dependencies.
 npm install --save-dev
 ```
 
-Then, start web server.
+Then, start the webserver.
 
 ```console
 npm start
