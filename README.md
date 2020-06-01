@@ -12,7 +12,7 @@ Please follow the steps below to generate source code using **Express 4.x** patt
 
 1. Visit Pyronome platform website: https://pyronome.com
 2. Sign up / log in to Pyronome. For detailed information and step by step instructions, please visit: https://help.pyronome.com/latest/en/docs/getting-started-signup-and-login/
-3. Create a project on Pyronome. For detailed information and step by step instructions, please visit: https://help.pyronome.com/latest/en/docs/getting-started-your-first-project/
+3. Create a new Pyronome project. For detailed information and step by step instructions, please visit: https://help.pyronome.com/latest/en/docs/getting-started-your-first-project/
 4. Please choose **Express 4.x** pattern on Install Pattern(s) dialog.
 5. Generate source code. For detailed information and step by step instructions, please visit: https://help.pyronome.com/latest/en/docs/getting-started-source-code-generation/
 
