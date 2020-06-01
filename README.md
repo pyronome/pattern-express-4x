@@ -8,7 +8,7 @@ Please refer to the [Getting Started](https://github.com/pyronome/pattern-expres
 
 ## Getting Started
 
-Please follow the following steps to generate source code using **Express 4.x** pattern:
+Please follow the steps below to generate source code using **Express 4.x** pattern:
 
 1. Visit Pyronome platform website: https://pyronome.com
 2. Sign up / log in to Pyronome. For detailed information and step by step instructions, please visit: https://help.pyronome.com/latest/en/docs/getting-started-signup-and-login/
