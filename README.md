@@ -1,6 +1,35 @@
 **Express** is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. For further information about **Express** Framework, please visit https://expressjs.com/.
 
-This repository contains Pyronome **Express 4.x** pattern basic information, documentation and issue tracker. For further information about this pattern, please visit https://pyronome.com/pyronome/express-4x. In order to generate source code using this pattern, please visit [Pyronome Sign Up Page](https://pyronome.com/builder/signup), and create an account.
+This repository contains Pyronome **Express 4.x** pattern basic information, pattern files, pattern templates, documentation, and issue tracker. For further information about this pattern, please visit https://pyronome.com/pyronome/express-4x.
+
+**Please note that, you cannot directly use this repository.** To generate source code using this pattern, please visit [Pyronome Sign Up Page](https://pyronome.com/builder/signup), and create an account.
+
+Please refer to the [Getting Started](https://github.com/pyronome/pattern-express-4x#getting-started) section for step by step instructions.
+
+## Getting Started
+
+Please follow the following steps to generate source code using **Express 4.x** pattern:
+
+1. Sign Up / Log-in to Pyronome from (https://pyronome.com). For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-signup-and-login/)
+2. Create your first project on Pyronome. For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-your-first-project/)
+3. Please choose **Express 4.x** pattern on Install Pattern(s) dialog.
+4. Generate source code. For detailed information and step by step instructions, please visit: (https://help.pyronome.com/latest/en/docs/getting-started-source-code-generation/)
+
+## Installation
+
+After generating and downloading source code from Pyronome platform. You can follow the steps below to install dependencies and run local web server.
+
+Firstly, install project and load dependencies.
+
+```console
+npm install --save-dev
+```
+
+Then, start web server.
+
+```console
+npm start
+```
 
 ## Contributing
 
