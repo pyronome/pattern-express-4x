@@ -1,0 +1,90 @@
+[
+    {
+        "base":"\/project\/model_list\/model\/name",
+        "enabled":"1",
+        "source":"source/source20194281024291124aec",
+        "destination":"\/source\/models\/{{$ __value__}}.js",
+        "temporary":"0",
+        "append":"0",
+        "glue":"",
+        "prepend_crlf":"0",
+        "append_crlf":"0"
+    },
+    {
+        "base":"\/project\/model_list\/model",
+        "enabled":"1",
+        "source":"",
+        "destination":"EXPRESSJS_MODEL{{$ __item_index__\/__value__}}_PROPERTIES",
+        "temporary":"1",
+        "append":"1",
+        "glue":"",
+        "prepend_crlf":"",
+        "append_crlf":""
+    },
+    {
+        "base":"\/project\/model_list\/model\/property_list\/property\/property_type",
+        "enabled":"1",
+        "source":"source/source20197320232326a6e908",
+        "destination":"EXPRESSJS_MODEL{{$ ..\/..\/..\/__item_index__\/__value__}}_PROPERTIES",
+        "temporary":"1",
+        "append":"1",
+        "glue":",",
+        "prepend_crlf":"",
+        "append_crlf":"1"
+    },
+    {
+        "base":"\/project\/model_list\/model\/name",
+        "enabled":"1",
+        "source":"source/source2019732227211826adb6",
+        "destination":"\/install\/dbdumb.sql",
+        "temporary":"0",
+        "append":"1",
+        "glue":"",
+        "prepend_crlf":"",
+        "append_crlf":"1"
+    },
+    {
+        "base":"\/project\/model_list\/model",
+        "enabled":"1",
+        "source":"",
+        "destination":"SPRITPHP_INSTALL_MODEL{{$ __item_index__\/__value__}}_DBDUMP_FIELDS",
+        "temporary":"1",
+        "append":"1",
+        "glue":"",
+        "prepend_crlf":"",
+        "append_crlf":""
+    },
+    {
+        "base":"\/project\/model_list\/model\/property_list\/property\/name",
+        "enabled":"1",
+        "source":"source/source2019732229401a2b8f08",
+        "destination":"SPRITPHP_INSTALL_MODEL{{$ ..\/..\/..\/__item_index__\/__value__}}_DBDUMP_FIELDS",
+        "temporary":"1",
+        "append":"1",
+        "glue":"",
+        "prepend_crlf":"",
+        "append_crlf":"1"
+    },
+    {
+        "base":"\/project\/model_list\/model\/name",
+        "enabled":"1",
+        "source":"",
+        "destination":"\/snippets\/system\/models\/{{$ __value__}}.js",
+        "temporary":"0",
+        "append":"0",
+        "glue":"",
+        "prepend_crlf":"0",
+        "append_crlf":"0"
+    },
+    {
+        "base":"\/project\/model_list\/model\/name",
+        "enabled":"1",
+        "source":"",
+        "destination":"\/snippets\/user\/models\/{{$ __value__}}.js",
+        "temporary":"0",
+        "append":"0",
+        "glue":"",
+        "prepend_crlf":"0",
+        "append_crlf":"0"
+    }
+]

@@ -1,0 +1,65 @@
+/**
+ * MODEL {{$ __value__/__uppercase_text__}}
+ */
+
+// Initialization
+const Database = require("./../configuration/database.js");
+const Helper = require("./../library/helper.js");
+const Sequelize = require("sequelize");
+const sequelize = new Sequelize(
+    Database.database_name,
+    Database.user,
+    Database.password,
+    {
+        "host": Database.host,
+        "dialect": Database.dialect
+    }
+);
+
+// Model Definition
+const {{$ __value__}} = {
+    "__connection": null,
+    "properties": {
+        "id": {
+            "type": Sequelize.INTEGER,
+            "autoIncrement": true,
+            "primaryKey": true,
+            "field": "id",
+            "value": 0
+        },
+        "deleted": {
+            "type": Sequelize.BOOLEAN,
+            "defaultValue": false,
+            "field": "deleted",
+            "value": false
+        },
+        "createdAt": {
+            "type": Sequelize.DATE,
+            "field": "created_at",
+            "defaultValue": sequelize.literal("NOW()"),
+            "value": 0
+        },
+        "updatedAt": {
+            "type": Sequelize.DATE,
+            "field": "updated_at",
+            "defaultValue": sequelize.literal("NOW()"),
+            "value": 0
+        },
+        "deletedAt": {
+            "type": Sequelize.DATE,
+            "field": "deleted_at",
+            "defaultValue": sequelize.literal("NOW()"),
+            "value": 0
+        }{{EXPRESSJS_MODEL{{$ ../__item_index__/__value__}}_PROPERTIES}}
+    }
+}
+
+{{$ __value__}}.__connection = sequelize.define(
+    "{{$ __value__/__lowercase_text__}}table",
+    {{$ __value__}}.properties,
+    {
+        timestamps: false,
+    }
+);
+
+module.exports = {{$ __value__}};

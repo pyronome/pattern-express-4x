@@ -1,0 +1,42 @@
+{{@ ../property_type_checkbox}}
+		`{{$ ../name/__value__/__lowercase_text__}}` CHAR(1) NOT NULL DEFAULT '0',
+{{@ ../property_type_date}}
+		`{{$ ../name/__value__/__lowercase_text__}}` DATE DEFAULT NULL,
+{{@ ../property_type_date_time}}
+		`{{$ ../name/__value__/__lowercase_text__}}` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+{{@ ../property_type_dropdown_list}}
+		`{{$ ../name/__value__/__lowercase_text__}}` CHAR(1) NOT NULL DEFAULT '0',
+{{@ ../property_type_email_address}}
+		`{{$ ../name/__value__/__lowercase_text__}}` VARCHAR(255) DEFAULT NULL,
+{{@ ../property_type_file_list}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TEXT DEFAULT NULL,
+{{@ ../property_type_html_editor}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TEXT DEFAULT NULL,
+{{@ ../property_type_image_list}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TEXT DEFAULT NULL,
+{{@ ../property_type_integer}}
+		`{{$ ../name/__value__/__lowercase_text__}}` INTEGER NOT NULL DEFAULT '0',
+{{@ ../property_type_location}}
+		`{{$ ../name/__value__/__lowercase_text__}}` VARCHAR(255) DEFAULT NULL,
+{{@ ../property_type_long_text}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TEXT DEFAULT NULL,
+{{@ ../property_type_model_selection}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TEXT DEFAULT NULL,
+{{@ ../property_type_model_list}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TEXT DEFAULT NULL,
+{{@ ../property_type_number}}
+		`{{$ ../name/__value__/__lowercase_text__}}` DOUBLE NOT NULL DEFAULT '0.0',
+{{@ ../property_type_password}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TEXT DEFAULT NULL,
+{{@ ../property_type_phone_number}}
+		`{{$ ../name/__value__/__lowercase_text__}}` VARCHAR(255) DEFAULT NULL,
+{{@ ../property_type_radio}}
+		`{{$ ../name/__value__/__lowercase_text__}}` BIGINT UNSIGNED NOT NULL DEFAULT '0',
+{{@ ../property_type_short_text}}
+		`{{$ ../name/__value__/__lowercase_text__}}` VARCHAR(255) DEFAULT NULL,
+{{@ ../property_type_switch}}
+		`{{$ ../name/__value__/__lowercase_text__}}` CHAR(1) NOT NULL DEFAULT '0',
+{{@ ../property_type_time}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TIME NOT NULL DEFAULT '00:00:00',
+{{@ ../property_type_url_address}}
+		`{{$ ../name/__value__/__lowercase_text__}}` TEXT DEFAULT NULL,
